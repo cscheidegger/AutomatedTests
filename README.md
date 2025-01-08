@@ -74,10 +74,10 @@ Part 1: API Automation
 To validate the API functionality:
 
 1. Navigate to the api_automation directory:
-cd api_automation
+```cd api_automation```
 
 2. Run Behave tests:
-behave features
+```behave features```
 
 Key Points for API Automation:
 I created a unique username, to be generated automatically
