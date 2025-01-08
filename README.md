@@ -57,6 +57,13 @@ Mac/Linux: source venv/bin/activate
    pip list
 
 
+You must install the respective dependencies using:
+
+pip install -r api_automation/requirements.txt
+pip install -r frontend_automation/requirements.txt
+
+
+
 Running Tests
 Part 1: API Automation
 
@@ -132,6 +139,7 @@ Dependencies
 API Automation:
 behave: For BDD testing.
 requests: For making API calls.
+
 Frontend Automation:
 selenium: For browser-based UI testing.
 unittest: For structuring test cases.
