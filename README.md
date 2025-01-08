@@ -44,24 +44,24 @@ Ensure the following are installed on your system:
    cd AutomatedTests
 
 2. Set Up a Virtual Environment
-python -m venv venv
+ ```bashpython -m venv venv ```
 
 3. Activate the Virtual Environment
-Windows: .\venv\Scripts\activate
-Mac/Linux: source venv/bin/activate
+ ```bashWindows: .\venv\Scripts\activate ```
+```Mac/Linux: source venv/bin/activate```
 
 4. Install Dependencies
-   pip install -r requirements.txt
+   ```pip install -r requirements.txt```
 
 5. Verify Installation
-   pip list
+  ``` pip list```
 
 
 You must install the respective dependencies using:
 
-pip install -r api_automation/requirements.txt
-pip install -r frontend_automation/requirements.txt
-pip install -r requirements.txt (general, if needed)
+```pip install -r api_automation/requirements.txt```
+```pip install -r frontend_automation/requirements.txt```
+```pip install -r requirements.txt (general, if needed)```
 
 
 Running Tests
@@ -81,15 +81,15 @@ If issues occur:
 Verify that the API server is running and accessible.
 Confirm that the generated username is unique.
 Check the Swagger documentation to ensure endpoint functionality aligns with expectations.
-https://demoqa.com/swagger/#/Account/AccountV1UserByUserIdDelete
+```https://demoqa.com/swagger/#/Account/AccountV1UserByUserIdDelete```
 
 Running Tests: Frontend Automation
 
 To test the web interface:
 1. Navigate to the frontend_automation directory:
-cd frontend_automation
+```cd frontend_automation```
 2. Run the frontend test suite:
-python -m unittest discover -s tests -p "test_*.py"
+```python -m unittest discover -s tests -p "test_*.py"```
 
 Key Points for Frontend Automation:
 Ensure Google Chrome and ChromeDriver are installed and compatible.  ( I used this tutorial for reference : https://www.youtube.com/watch?v=sdNmNS23_Gs) 
