@@ -40,7 +40,7 @@ Ensure the following are installed on your system:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/cscheidegger/Automation.git
+   git clone https://github.com/cscheidegger/AutomatedTests.git
    cd Automation
 
 2. Set Up a Virtual Environment
