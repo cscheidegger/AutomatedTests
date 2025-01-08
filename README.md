@@ -61,7 +61,7 @@ You must install the respective dependencies using:
 
 pip install -r api_automation/requirements.txt
 pip install -r frontend_automation/requirements.txt
-
+pip install -r requirements.txt (general, if needed)
 
 
 Running Tests
