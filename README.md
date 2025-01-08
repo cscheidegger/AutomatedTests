@@ -59,9 +59,13 @@ Ensure the following are installed on your system:
 
 You must install the respective dependencies using:
 
+Api
 ```pip install -r api_automation/requirements.txt```
+
+Frontend
 ```pip install -r frontend_automation/requirements.txt```
-```pip install -r requirements.txt (general, if needed)```
+
+General , if needed  ```pip install -r requirements.txt ```
 
 
 Running Tests
