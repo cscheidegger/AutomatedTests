@@ -41,7 +41,7 @@ Ensure the following are installed on your system:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/cscheidegger/AutomatedTests.git
-   cd Automation
+   cd AutomatedTests
 
 2. Set Up a Virtual Environment
 python -m venv venv
